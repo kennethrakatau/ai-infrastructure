@@ -14,6 +14,7 @@ metrics = (
     f"{'-' * 40}\n"
 )
 
+os.makedirs("/app/logs", exist_ok=True)
 with open(log_file, "a") as file:
     file.write(metrics)
 
