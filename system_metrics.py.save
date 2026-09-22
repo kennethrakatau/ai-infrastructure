@@ -1,0 +1,6 @@
+import os
+import platform
+
+target_env = os.environ.get("ENVIRONMENT", "UNKNOWN")
+
+print("
